@@ -5,10 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "node tests/magic.test.js",
-    "dev": "node src/index.js"
+    "dev": "node src/index.js",
+    "analyze": "node src/cli.js analyze",
+    "scaffold": "node src/cli.js scaffold"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.1",
+    "yargs": "^18.0.0"
+  },
+  "bin": {
+    "copilot-starter-kit": "src/cli.js"
+  }
 }
