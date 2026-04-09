@@ -1,7 +1,7 @@
 {
   "name": "copilot-in-magic",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI tool to automatically scaffold GitHub Copilot infrastructure in repositories",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,8 +9,14 @@
     "analyze": "node src/cli.js analyze",
     "scaffold": "node src/cli.js scaffold"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "copilot",
+    "github",
+    "ai",
+    "setup",
+    "scaffold"
+  ],
+  "author": "Perinba Raj <perinbaraj@users.noreply.github.com>",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
